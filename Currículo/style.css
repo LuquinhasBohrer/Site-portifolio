@@ -12,7 +12,7 @@ a:hover {opacity: 1;}
 
 /*CABEÇALHO*/
 header {
-    background-color: rgb(133, 133, 133);
+    background-color: #4BF275;
     width: 100%; 
     position: absolute; 
     top: 0; 
@@ -62,13 +62,13 @@ body {
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #38184C;
+    background-color: #0255c9;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #A0CD60;
+    background-color: #00998f;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -84,11 +84,11 @@ body {
 .profile .profile-image {
     width: 100%;
     border-radius: 50%;
-    border: 8px solid #1B2631;
+    border: 8px solid #39DBD1;
 }
 
 .name {
-    color: #A0CD60;
+    color: #FAE434;
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -98,7 +98,7 @@ body {
 }
 
 .profession {
-    color: #1C646D;
+    color: #FAE434;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -109,7 +109,7 @@ body {
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #1C646D;
+    color: #FAE434;
     font-size: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -137,7 +137,7 @@ body {
 .references ul li i {
     padding-right: 1rem;
     font-size: 18px;
-    color: #2E86C1;
+    color: #FAE434;
 }
 
 .skills ul {
@@ -164,7 +164,7 @@ body {
 
 .referance-profession {
     font-size: 16px;
-    color: #1C646D;
+    color: #FAE434;
     letter-spacing: 1px;
     /* text-transform: uppercase; */
     padding-bottom: .4rem;
@@ -176,7 +176,7 @@ body {
 }
 
 .right-title {
-    color: #1C646D;
+    color: #FAE434;
     font-size: 40px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -213,7 +213,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #1F0802;
+    color: #91DB39;
     padding-bottom: .4rem;
 }
 
@@ -232,7 +232,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #1F0802;
+    color: #91DB39;
     padding-bottom: .4rem;
 }
 
@@ -242,7 +242,7 @@ body {
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 1.5rem;
-    border-left: 3px solid #1C646D;
+    border-left: 3px solid #4BF275;
     padding-left: 5px;
 }
 

@@ -12,7 +12,7 @@ a:hover {opacity: 1;}
 
 /*CABEÇALHO*/
 header {
-    background-color: rgb(133, 133, 133);
+    background-color: #4BF275;
     width: 100%; 
     position: absolute; 
     top: 0; 
@@ -44,3 +44,6 @@ header li:last-child {
     header {flex-direction: column;}
     header img {margin-bottom: 15px;}
 }
+
+body {background-color: #1C646D;}
+
