@@ -57,7 +57,7 @@ header li:last-child {
     flex-direction: column;
     text-align: center;
 }
-.hero h1 {font-size: 4.0rem; margin-bottom: 15px;}
+.hero h1 {font-size: 4.0rem; margin-bottom: 15px; text-shadow: 0.1em 0.1em 0.2em rgb(0, 0, 0)}
 .hero h3 {font-size: 2.3rem; margin-bottom: 15px;}
 @media ( max-width: 700px) {
     .hero h1 {font-size: 2.5rem;}
@@ -71,5 +71,19 @@ header li:last-child {
 .sobre-mim hr {width: 400px; height: 2px; background-color: #C81E4F; margin-bottom: 70px; border: none;}
 .sobre-mim .btn {background-color: #bdbdbd; border-radius: 4px; color: #000000; padding: 20px 50px; text-transform: uppercase;}
 
-/*Pontos Fortes*/
+/*cursos*/
+.cursos {background-color: #FF3662; display: flex; flex-direction: column; align-items: center; padding: 100px 50px;}
+.cursos h3 {font-size: 2rem; margin-bottom: 35px; color: #fff; text-align: center;}
+.cursos p {max-width: 800px; margin-bottom: 35px; color: #fff; text-align: center;}
+.cursos hr {width: 200px; height: 2px; background-color: #fff; margin-bottom: 70px; border: none;}
+
+.cursos .grid {width: 100%; display: flex;}
+.cursos .grid li {padding: 0px 30px; text-align: center;}
+.cursos .grid li i {color: #7600B1; font-size: 3.5rem; margin-bottom: 30px;}
+.cursos .grid li h4 {font-size: 1.5rem; color: #7600B1; margin-bottom: 30px;}
+.cursos .grid li p {color: #fff;}
+.cursos .btn {background-color: #bdbdbd; border-radius: 4px; color: #000000; padding: 20px 50px; text-transform: uppercase;}
+@media ( max-width: 850px) {
+    .cursos .grid {flex-direction: column;}
+}
 
