@@ -12,7 +12,7 @@ a:hover {opacity: 1;}
 
 /*CABEÇALHO*/
 header {
-    background-color: #4BF275;
+    background: linear-gradient(#FF3662, #7600B1) ;
     width: 100%; 
     position: absolute; 
     top: 0; 
@@ -46,7 +46,7 @@ header li:last-child {
 }
 
 body {
-    background-color: #1C646D;
+    background: linear-gradient(#4D022B, #2E024F);
 }
 
 .resume-contents {
@@ -62,13 +62,13 @@ body {
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #0255c9;
+    background-color: #0b0044;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #00998f;
+    background-color: #3F0162;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -78,17 +78,17 @@ body {
 
 .profile {
     width: 100%;
-    border-bottom: 2px solid #1B2631;
+    border-bottom: 2px solid #7001B5;
 }
 
 .profile .profile-image {
     width: 100%;
     border-radius: 50%;
-    border: 8px solid #39DBD1;
+    border: 8px solid #42009E;
 }
 
 .name {
-    color: #FAE434;
+    color: #DD1F43;
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -98,7 +98,7 @@ body {
 }
 
 .profession {
-    color: #FAE434;
+    color: #DD1F43;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -109,7 +109,7 @@ body {
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #FAE434;
+    color: #DD1F43;
     font-size: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -137,7 +137,7 @@ body {
 .references ul li i {
     padding-right: 1rem;
     font-size: 18px;
-    color: #FAE434;
+    color: #DD1F43;
 }
 
 .skills ul {
@@ -164,7 +164,7 @@ body {
 
 .referance-profession {
     font-size: 16px;
-    color: #FAE434;
+    color: #DD1F43;
     letter-spacing: 1px;
     /* text-transform: uppercase; */
     padding-bottom: .4rem;
@@ -176,7 +176,7 @@ body {
 }
 
 .right-title {
-    color: #FAE434;
+    color: #DD1F43;
     font-size: 40px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -213,7 +213,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #91DB39;
+    color: #FC99AB;
     padding-bottom: .4rem;
 }
 
@@ -232,7 +232,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #91DB39;
+    color: #FC99AB;
     padding-bottom: .4rem;
 }
 
@@ -242,7 +242,7 @@ body {
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 1.5rem;
-    border-left: 3px solid #4BF275;
+    border-left: 3px solid #FC99AB;
     padding-left: 5px;
 }
 

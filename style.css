@@ -12,7 +12,7 @@ a:hover {opacity: 1;}
 
 /*CABEÇALHO*/
 header {
-    background-color: #4BF275;
+    background: linear-gradient(#FF3662, #7600B1) ;
     width: 100%; 
     position: absolute; 
     top: 0; 
@@ -20,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 5px 50px;
 }
 header img {
     width: 200px;
@@ -29,7 +29,7 @@ header nav {
     display: flex;
 }
 header li a {
-    color: #191c03;
+    color: rgb(226, 226, 226);
 }
 header li {
     margin: 0 15px;
@@ -45,5 +45,31 @@ header li:last-child {
     header img {margin-bottom: 15px;}
 }
 
-body {background-color: #1C646D;}
+/*HERO*/
+.hero {
+    background-image: url(img/Hero\ Home.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.hero h1 {font-size: 4.0rem; margin-bottom: 15px;}
+.hero h3 {font-size: 2.3rem; margin-bottom: 15px;}
+@media ( max-width: 700px) {
+    .hero h1 {font-size: 2.5rem;}
+    .hero h3 {font-size: 1.5rem;}
+}
+
+/*SOBRE MIM*/
+.sobre-mim {display: flex; flex-direction: column; align-items: center; padding: 100px 50px;}
+.sobre-mim h3 {font-size: 2rem; margin-bottom: 35px; color: #C81E4F; text-align: center;}
+.sobre-mim p {max-width: 800px; margin-bottom: 35px; color: #C81E4F; text-align: center;}
+.sobre-mim hr {width: 400px; height: 2px; background-color: #C81E4F; margin-bottom: 70px; border: none;}
+.sobre-mim .btn {background-color: #bdbdbd; border-radius: 4px; color: #000000; padding: 20px 50px; text-transform: uppercase;}
+
+/*Pontos Fortes*/
 
