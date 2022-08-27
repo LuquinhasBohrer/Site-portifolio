@@ -82,7 +82,7 @@ header li:last-child {
 .cursos .grid li i {color: #7600B1; font-size: 3.5rem; margin-bottom: 30px;}
 .cursos .grid li h4 {font-size: 1.5rem; color: #7600B1; margin-bottom: 30px;}
 .cursos .grid li p {color: #fff;}
-.cursos .btn {background-color: #bdbdbd; border-radius: 4px; color: #000000; padding: 20px 50px; text-transform: uppercase;}
+.cursos .btn {background-color: #dddddd; border-radius: 4px; color: #000000; padding: 20px 50px; text-transform: uppercase;}
 @media ( max-width: 850px) {
     .cursos .grid {flex-direction: column;}
 }
