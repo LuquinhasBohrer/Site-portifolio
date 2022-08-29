@@ -75,13 +75,13 @@ header li:last-child {
 .cursos {background-color: #FF3662; display: flex; flex-direction: column; align-items: center; padding: 100px 50px;}
 .cursos h3 {font-size: 2rem; margin-bottom: 35px; color: #fff; text-align: center;}
 .cursos p {max-width: 800px; margin-bottom: 35px; color: #fff; text-align: center;}
-.cursos hr {width: 200px; height: 2px; background-color: #fff; margin-bottom: 70px; border: none;}
+.cursos hr {width: 200px; height: 2px; background-color: #fff; margin-bottom: 70px; border: none; flex-direction: column;}
 
 .cursos .grid {width: 100%; display: flex;}
 .cursos .grid li {padding: 0px 30px; text-align: center;}
-.cursos .grid li i {color: #7600B1; font-size: 3.5rem; margin-bottom: 30px;}
+.cursos .grid li i {color: #7600B1; font-size: 3.5rem; margin-bottom: 30px; align-items: center;}
 .cursos .grid li h4 {font-size: 1.5rem; color: #7600B1; margin-bottom: 30px;}
-.cursos .grid li p {color: #fff;}
+.cursos .grid li p {color: #fff; flex-direction: column; justify-content: center; text-align: center;}
 .cursos .btn {background-color: #dddddd; border-radius: 4px; color: #000000; padding: 20px 50px; text-transform: uppercase;}
 @media ( max-width: 850px) {
     .cursos .grid {flex-direction: column;}
