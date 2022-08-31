@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="animation.css">
-    <link rel="stylesheet" href="default.css">
-    <link rel="stylesheet" href="reset.min.css">
 
     <!--FontAwasome-->
     <script src="https://kit.fontawesome.com/734f64d929.js" crossorigin="anonymous"></script>
@@ -16,18 +14,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    
+
     <!--Título da página-->
     <title>Meu Portifólio</title>
 
     <!--FAVICON-->
     <link rel="shortcut icon" href="img/favicon_created_by_logaster.ico" type="image/x-icon">
+
+    <!--CSS para carrosel-->
+    <style>
+
+    </style>
 </head>
 
 <body>
     <!--CABEÇALHO-->
     <header>
-        <a href="../index.html"><img src="../img/horizontal_on_white_by_logaster-removebg-preview.png" alt="Lucas Bohrer"></a>
+        <a href="../index.html"><img src="../img/horizontal_on_white_by_logaster-removebg-preview.png"
+                alt="Lucas Bohrer"></a>
 
         <nav>
             <li><a href="../index.html">Home</a></li>
@@ -40,32 +44,63 @@
     <main>
         <section class="quem-sou-eu">
             <h1>Quem é Lucas Bohrer?</h1>
-                <p>Lucas Bohrer é um jovem rapaz de 16 anos que está navegando nesse mar 
+            <p>Lucas Bohrer é um jovem rapaz de 16 anos que está navegando nesse mar
                 da programação. Ele está apenas inciando, este site é seu primeiro projeto grande.
                 Ele tem um sonho de um diz se tornar um grande desenvolvedor web e de software full stack.
-                E para isso está fazendo inúmeros cursos, na sessão de <a href="../Meus projetos/index.html">Meus projetos</a> estão alguns dos projetos
-                que ele fez com estes cursos gratuitos.
-                </p>
-                <hr>
+                E para isso está fazendo inúmeros cursos, na sessão de <a href="../Meus projetos/index.html">Meus
+                    projetos</a> estão alguns dos projetos
+                que ele fez com estes cursos gratuitos.<br>
+                Além da área de programação, estou muito ligado às artes, gosto muito de desenhar e pintar
+                e também faço música, tocando teclado, violino, flauta e Ukulele.
+            </p>
+            <hr>
+
         </section>
 
-        <section class="galery">
-            <div class="fotos">
-                <img src="img/foto01.jpg" alt="Foto 1">
-                <img src="img/foto02.jpg" alt="Foto 2">
-                <img src="img/foto03.jpg" alt="Foto 3">
-                <img src="img/foto04.jpg" alt="Foto 4">
-                <img src="img/foto01.jpg" alt="Foto 1">
+        <!--HTML para o carrosel-->
+        <div class="container">
+            <div class="content">
+
+                <div class="carousel-content">
+                </div>
+                <div class="slideshow">
+
+                    <button class="slide-btn slide-btn-1"></button>
+                    <button class="slide-btn slide-btn-2"></button>
+                    <button class="slide-btn slide-btn-3"></button>
+                    <button class="slide-btn slide-btn-4"></button>
+
+                    <div class="slideshow-wrapper">
+                        <div class="container"></div>
+                        <div class="slide">
+                            <img class="slide-img" src="img/foto01.jpeg" width="320" height="205">
+                        </div>
+                        <div class="slide">
+                            <img class="slide-img" src="img/foto02.jpeg" width="320" height="205">
+                        </div>
+                        <div class="slide">
+                            <img class="slide-img" src="img/foto03.jpeg" width="320" height="205">
+                        </div>
+                        <div class="slide">
+                            <img class="slide-img" src="img/foto04.jpeg" width="320" height="205">
+                        </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
+        </div>
+
+
     </main>
 
     <footer>
         <ul>
             <li><a href="https://www.facebook.com/lucas.bohrer.566"><i class="fa-brands fa-facebook"></i></a></li>
             <li><a href="https://github.com/LuquinhasBohrer"><i class="fa-brands fa-github"></i></a></li>
-            <li><a href="https://www.instagram.com/lucas_bohrer_/?r=nametag"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/lucas-bohrer-434253248"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/lucas_bohrer_/?r=nametag"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/lucas-bohrer-434253248"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
         </ul>
         <p>Todos direitos reservados © Lucas Bohrer 2022</p>
     </footer>
