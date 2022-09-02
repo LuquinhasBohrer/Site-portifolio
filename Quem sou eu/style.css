@@ -67,7 +67,7 @@ header li:last-child {
 }
 
 .slide {
-    margin: 0px 150px;
+    margin: 0px 75px;
     background-color: #FF3662;
 }
 
@@ -80,11 +80,15 @@ header li:last-child {
 
 .carrossel img {
     width: 300px;
-    height: 400px;
+    height: 450px;
 }
 
 .carrossel li {
     list-style: none;
+}
+@media (max-width: 700px;) {
+    .slide {margin-left: 50px;
+            margin-right: 50px;}
 }
         
 
